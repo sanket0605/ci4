@@ -9,7 +9,7 @@
     <div class="col-12">
         <div class="card shadow-sm mb-4">
             <div class="card-body">
-                <h5 class="card-title">Welcome back, <?= esc(session()->get('name')) ?>!</h5>
+                <h5 class="card-title">Welcome back, sanket <?= esc(session()->get('name')) ?>!</h5>
                 <p class="card-text">Your Email: <?= esc(session()->get('email')) ?></p>
             </div>
         </div>

@@ -64,7 +64,7 @@
                             <a class="nav-link <?= (url_is('dashboard') ? 'active' : '') ?>" href="/dashboard">
                                 <i class="bi bi-speedometer2"></i> Dashboard
                             </a>
-                        </li>
+                        </li>   
 
                         <!-- Inventory Section -->
 
@@ -74,8 +74,8 @@
                             </a>
                         </li>
 
-                       <li class="nav-item">
-                            <a class="nav-link" href="#">
+                       <li class="nav-item ">
+                            <a class="nav-link <?= (url_is('items*') ? 'active' : '') ?>" href="/inventory">
                                 <i class="bi bi-boxes"></i> Inventory
                             </a>
                         </li>
