@@ -8,4 +8,6 @@ class InventoryModel extends Model
     protected $primaryKey = 'id';
     protected $allowedFields = ['product_name', 'quantity', 'price'];
     protected $useTimestamps = true;
+
+    
 }

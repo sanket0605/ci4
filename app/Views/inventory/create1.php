@@ -30,6 +30,9 @@
                 <a href="<?= base_url('inventory'); ?>" class="btn btn-secondary">Back</a>
 
             </form>
+
+
+            
         </div>
     </div>
 </div>

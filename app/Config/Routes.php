@@ -41,3 +41,4 @@ $routes->POST('/inventory/store','inventorycontroller::store');
 $routes->get('/inventory/edit1/(:num)', 'inventorycontroller::edit/$1');
 $routes->POST('/inventory/update/(:num)', 'inventorycontroller::update/$1');
 $routes->get('/inventory/delete/(:num)','inventorycontroller::delete/$1');
+

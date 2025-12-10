@@ -81,4 +81,6 @@ class inventorycontroller extends BaseController
 
         return redirect()->to('/inventory')->with('success', 'Product Deleted Successfully');
     }
+
+    
 }
